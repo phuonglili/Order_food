@@ -1,0 +1,149 @@
+:root{
+    --white--color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+    --primary-color: #f6b93b;   
+    --border-color: #dbdbdb;
+    --star-gold-color: #FFCE3E;
+    --like-color: #EE4D2D; 
+    --navbar-height: 34px;
+    --header-height: 120px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+/*RESPONSIVE*/
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+      
+}
+.app__container{
+    padding: 2rem 9%;
+    background-color: #f7f7f7;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    /*những thẻ nằm trong thì nằm cùng 1 hàng ngang*/
+    display: flex;
+    flex-wrap: wrap; /*vượt quá thì nhảy xuống hàng*/
+    margin-left: -5px;
+    margin-right: -5px;
+    gap: 2rem;
+    
+}
+/* Test */
+.grid__column-2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 16.6667%;
+}
+.grid__column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 23.5%; /*20% trong 66.7% còn lại*/
+}
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+
+.btn.btn--normal:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.btn.btn--size-s{
+    height: 32px;
+    font-size: 12px;
+    padding: 8px;
+}
+.btn.btn--primary{
+    color: var(--white--color);
+    background-color: #27ae60;
+}
+.btn.btn--primary:hover{
+    background-color: #49c27b;
+}
+/*Selection*/
+.select-input{
+    position: relative;
+    min-width: 200px;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white--color);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.select-input__label{
+    font-size: 1.4rem;
+}
+.select-input__icon{
+    font-size: 1.4rem;
+    color: rgb(131, 131, 131);
+    position: relative;
+    top: 1px;
+}
+.select-input:hover .select-input__list{
+    display: block;
+}
+.select-input__list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    border-radius: 2px;
+    background-color: var(--white--color);
+    padding: 12px 16px;
+    list-style: none;
+    display: none;
+}
+.select-input__link{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    padding: 6px 0;
+}
+.select-input__link:hover{
+    color: var(--primary-color);
+}
+
+
+/* PHÂN TRANG */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+}
+.pagination-item{
+    margin: 0 12px;
+}
+
+.pagination-item--active .pagination-item__link:hover{
+    background-color: #f6b93b;
+}
+.pagination-item__link{
+    --height: 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #939393;
+    height: 30px;
+    min-width: 40px;
+    line-height: var(--height);
+    text-align: center;
+    border-radius: 2px;
+}
+.pagination-item__link:hover{
+    background-color: #FFCE3E;
+    color: #fff;
+}
