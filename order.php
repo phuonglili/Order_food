@@ -338,7 +338,7 @@
                 </div>
                 <div class="inputBox">
                     <span>Số điện thoại</span>
-                    <input type="phone" placeholder="096 5269 082" name="" id="">
+                    <input type="phone" placeholder="" name="" id="">
                 </div>
             </div>
             <div class="flex">
@@ -346,7 +346,7 @@
                     <textarea placeholder="Địa chỉ nhận hàng" id="" cols="30" rows="10"></textarea>
                 </div>
                 <div class="inputBox">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.525305593949!2d105.81907701493239!3d21.01165718600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab7dbe014e0b%3A0x741128e73301c5ff!2zNTcgUC4gVGjDoWkgSMOgLCBUcnVuZyBMaeG7h3QsIMSQ4buRbmcgxJBhLCBIw6AgTuG7mWk!5e0!3m2!1sen!2s!4v1641206928270!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.63292360313!2d105.82254171479399!3d21.00734658601004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac8109765ba5%3A0xd84740ece05680ee!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBUaOG7p3kgbOG7o2k!5e0!3m2!1svi!2s!4v1670161598970!5m2!1svi!2s" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div id="toast">
